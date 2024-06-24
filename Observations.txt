@@ -2,7 +2,20 @@ For Synthetic Data
   LOF
     First data generated consisted of equal amounts of global and local anomalies.
     Second data generated consisted only of local anomalies.
-    Performance of the lof on the second data was significantly better that the first one.
+    Performance of the lof on the second data was better that the first one.
     The algorithm was tested on default parameters, except "contamination".
     High amounts of anomalies leads to a poorer performance by the LOF.
 
+  CBLOF
+    Similar generation of datasets as LOF.
+    Performance of the first dataset was better than that of LOF.
+    Performance of the second dataset was a decent improvement over the first.
+
+  COF 
+    Performance for the first dataset was a little better than the second dataset.
+    Improvement in accuracy compared to LOF.
+    Slightly decreased ROC AUC than LOF.
+
+  KNN
+    Best performance for the global anomalies
+    Second best accuracy for local anomalies
