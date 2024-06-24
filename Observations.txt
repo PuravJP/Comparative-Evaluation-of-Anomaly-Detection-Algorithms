@@ -1,0 +1,8 @@
+For Synthetic Data
+  LOF
+    First data generated consisted of equal amounts of global and local anomalies.
+    Second data generated consisted only of local anomalies.
+    Performance of the lof on the second data was significantly better that the first one.
+    The algorithm was tested on default parameters, except "contamination".
+    High amounts of anomalies leads to a poorer performance by the LOF.
+
