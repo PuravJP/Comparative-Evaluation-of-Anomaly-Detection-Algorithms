@@ -120,3 +120,26 @@ For Synthetic Data
       Mean Precision for COF: 0.3273
       Mean Recall for COF: 0.5237
       Mean F1 Score for COF: 0.4028
+    
+    Pen Global dataset
+      KNN auc 0.9752241708787046
+      LOF auc 0.8367892774894369
+      CBLOF auc 0.9129146548767297
+      COF auc 0.8086392950160378
+      lof emmv 0.005037762669962917
+      cblof emmv 0.005037762669962917
+      knn emmv 0.005037762669962917
+      cof emmv 0.08557457425723114
+      Mean Precision for LOF: 0.5387
+      Mean Recall for LOF: 0.4848
+      Mean F1 Score for LOF: 0.5103
+      Mean Precision for CBLOF: 0.7522
+      Mean Recall for CBLOF: 0.6770
+      Mean F1 Score for CBLOF: 0.7126
+      Mean Precision for KNN: 0.7488
+      Mean Recall for KNN: 0.6737
+      Mean F1 Score for KNN: 0.7093
+      Mean Precision for COF: 0.5035
+      Mean Recall for COF: 0.4531
+      Mean F1 Score for COF: 0.4770
+      
