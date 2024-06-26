@@ -35,3 +35,53 @@ For Synthetic Data
       lof emmv 0.005307202000000001
       cblof emmv 0.005049802000000001
       knn emmv 0.005037922000000001
+
+    Thyroid dataset
+      Original number of features: 21
+      Features after standardization and decomposition: 19
+      LOF and COF have the best auc Score
+      COF's AUC increases over the neighbours
+      LOF's AUC decreases(slightly) with the increase in neighbours
+      The average for both of them is almost same
+      CBLOF's performance increases with increase in neighbours but is worse compared to all the other algorithms
+      KNN's AUC on the other hand is in the middle of the pack and decreases(moderately) with increase in neighbours
+
+
+      Mean Precision for LOF: 0.1487
+      Mean Recall for LOF: 0.4115
+      Mean F1 Score for LOF: 0.2184
+      Mean Precision for CBLOF: 0.0894
+      Mean Recall for CBLOF: 0.2474
+      Mean F1 Score for CBLOF: 0.1313
+      Mean Precision for KNN: 0.0867
+      Mean Recall for KNN: 0.2399
+      Mean F1 Score for KNN: 0.1273
+      lof emmv 0.00504856853672643
+      cblof emmv 0.00504856853672643
+      knn emmv 0.005034253903990745
+      cof emmv 0.29923407207513014
+      KNN auc 0.6853020789883867
+      LOF auc 0.7856019992243126
+      CBLOF auc 0.6367061974490131
+      COF auc 0.791470805617147
+
+    Cancer dataset
+      
+
+      KNN auc 0.9823256131720979
+      LOF auc 0.9853590216574434
+      CBLOF auc 0.9695907631345221
+      COF auc 0.958680057388809
+      lof emmv 0.005023024523160762
+      cblof emmv 0.005023024523160762
+      knn emmv 0.005023024523160762
+      cof emmv 0.16963181178855585
+      Mean Precision for LOF: 0.2703
+      Mean Recall for LOF: 1.0000
+      Mean F1 Score for LOF: 0.4255
+      Mean Precision for CBLOF: 0.2439
+      Mean Recall for CBLOF: 0.9024
+      Mean F1 Score for CBLOF: 0.3840
+      Mean Precision for KNN: 0.2703
+      Mean Recall for KNN: 1.0000
+      Mean F1 Score for KNN: 0.4255
