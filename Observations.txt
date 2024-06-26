@@ -66,7 +66,17 @@ For Synthetic Data
       COF auc 0.791470805617147
 
     Cancer dataset
-      
+      Original number of features: 30
+      Features after standardization and decomposition: 11
+      LOF and KNN give consisent auc results over the neighbours
+      LOF essentially has the best performance.
+      CBLOF fluctuates a lot with respect to the number of neighbours. 
+      CBLOF has the peak AUC score but also the bottom score compared to rest of the algorithms
+      COF performs the worst in comparision to the other algorithms but in the grand scheme, it performs good.
+      COF's AUC increases with increasing neighbours, but stabilizes after 20-25 neighbours.
+      The recall of LOF and KNN is highest(1)
+
+
 
       KNN auc 0.9823256131720979
       LOF auc 0.9853590216574434
@@ -85,3 +95,28 @@ For Synthetic Data
       Mean Precision for KNN: 0.2703
       Mean Recall for KNN: 1.0000
       Mean F1 Score for KNN: 0.4255
+      Mean Precision for COF: 0.2248
+      Mean Recall for COF: 0.8317
+      Mean F1 Score for COF: 0.3539
+
+    Letter dataset
+      KNN auc 0.8139133333333333
+      LOF auc 0.8620990243902439
+      CBLOF auc 0.8173702439024391
+      COF auc 0.8634647154471543
+      lof emmv 0.0050438125
+      cblof emmv 0.0050438125
+      knn emmv 0.0050438125
+      cof emmv 0.1421050805
+      Mean Precision for LOF: 0.3061
+      Mean Recall for LOF: 0.4898
+      Mean F1 Score for LOF: 0.3767
+      Mean Precision for CBLOF: 0.2207
+      Mean Recall for CBLOF: 0.3532
+      Mean F1 Score for CBLOF: 0.2717
+      Mean Precision for KNN: 0.2202
+      Mean Recall for KNN: 0.3522
+      Mean F1 Score for KNN: 0.2709
+      Mean Precision for COF: 0.3273
+      Mean Recall for COF: 0.5237
+      Mean F1 Score for COF: 0.4028
